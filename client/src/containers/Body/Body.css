@@ -1,0 +1,23 @@
+.Body {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Links {
+    width: 25%;
+    background-color: azure;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content {
+    width: 75%;
+    background-color: blueviolet;
+
+    display: flex;
+    padding: 2%;
+}

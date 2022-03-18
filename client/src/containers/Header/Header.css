@@ -1,0 +1,19 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pics {
+    height: 150px;
+    background-color: bisque;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LabName {
+    color: white;
+    background-color: brown;
+    padding: 5px 5%;
+}
