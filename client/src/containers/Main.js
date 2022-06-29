@@ -14,10 +14,10 @@ class Main extends Component {
 
     render() {
         return(
-            <div>
+            <div className='Main'>
                 <Header/>
                 <Body/>
-                <Bottom/>
+                {/* <Bottom/> */}
             </div>
         );
     }
