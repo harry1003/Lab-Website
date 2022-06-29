@@ -16,7 +16,7 @@
 
 .Content {
     width: 75%;
-    background-color: blueviolet;
+    background-color: rgb(110, 20, 20);
 
     display: flex;
     padding: 2%;
