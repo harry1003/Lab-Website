@@ -9,7 +9,7 @@
 
 .Links {
     width: 20%;
-    background-color: rgb(60, 66, 66);
+    background-color: rgb(66, 66, 66);
 
     padding-top: 3%;
     padding-left: 3%;
@@ -33,4 +33,5 @@
 
 .Content {
     width: 100%;
+    padding: 20px;
 }

@@ -1,10 +1,5 @@
 import React, { Component } from 'react'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import './Body.css'
 
 import introduction  from "../../resource/EDA_lab.pdf"
@@ -33,7 +28,9 @@ class Body extends Component {
                 </nav>
 
                 <div className="Content">
-                    put content here
+                    <Routes>
+                        <Route path='/' element={<div>hello</div>}/>
+                    </Routes>
                 </div>
             </div>
         );
