@@ -18,7 +18,7 @@ class Homepage extends Component {
     render() {
         return(
             <div>
-                <div>
+                <div className='MoreNews'>
                     More News
                 </div>
 
@@ -34,8 +34,20 @@ class Homepage extends Component {
                         )
                     }
                 </table>
-
-
+                
+                <div className='Big'>聯絡方式</div>
+                <div className='Normal'>
+                    地址：10617 台北市大安區羅斯福路四段一號國立台灣大學電子所博理館 406 室<br/>
+                    電話：+886-2-3366-3700 - 6406 , +886-2-2363-5251 - 6406 <br/>
+                    傳真：+886-2-2368-1679 (請註明 博理館406室 EDA實驗室)
+                </div>
+                <div className='Big'>Contact</div>
+                <div className='Normal'>
+                    Company: Electronic Design Automation Lab, National Taiwan University<br/>
+                    Address: BL406, No. 1, Sec. 4, Roosevelt Road, Taipei 10617, Taiwan (R.O.C.)<br/>
+                    Phone: +886-2-3366-3700 - 6406, +886-2-2363-5251 - 6406 <br/>
+                    Fax: +886-2-2368-1679 (Please note EDA Lab, BL406)
+                </div>
             </div>
         );
     }
