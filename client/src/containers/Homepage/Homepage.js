@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Homepage.css'
 
 var testData = {
     data:[
@@ -21,18 +22,20 @@ class Homepage extends Component {
                     More News
                 </div>
 
-                <table>
+                <table className='News'>
                     {
                         testData.data.map(
                             (news, index) => {
                                 return <tr>
-                                            <td>{news.time}</td>
-                                            <td>{news.content}</td>
+                                            <td className='Date'>{news.time}</td>
+                                            <td className="Data">{news.content}</td>
                                         </tr>
                             }
                         )
                     }
                 </table>
+
+
             </div>
         );
     }
