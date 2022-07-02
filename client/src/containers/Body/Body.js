@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Routes, Route, Link } from "react-router-dom";
+import Homepage from '../Homepage/Homepage'
 import './Body.css'
 
 import introduction  from "../../resource/EDA_lab.pdf"
@@ -29,7 +30,7 @@ class Body extends Component {
 
                 <div className="Content">
                     <Routes>
-                        <Route path='/' element={<div>hello</div>}/>
+                        <Route path='/' element={<Homepage/>}/>
                     </Routes>
                 </div>
             </div>
