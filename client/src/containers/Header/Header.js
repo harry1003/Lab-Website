@@ -5,8 +5,8 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
 // import pics here
-import img1 from "../../resource/IMG_1.JPG"
-import img2 from "../../resource/IMG_2.JPG"
+import img1 from "../../resource/Header/IMG_1.JPG"
+import img2 from "../../resource/Header/IMG_2.JPG"
 
 class Header extends Component {
     constructor(props) {

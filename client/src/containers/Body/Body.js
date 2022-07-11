@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import { Routes, Route, Link } from "react-router-dom";
-import Homepage from '../Homepage/Homepage'
-import './Body.css'
 
-import introduction  from "../../resource/EDA_lab.pdf"
+import './Body.css'
+import Homepage from '../Homepage/Homepage'
+import Login from '../Login/Login'
+
+import introduction  from "../../resource/Introduction/EDA_lab.pdf"
 
 class Body extends Component {
     constructor(props) {
@@ -31,6 +33,7 @@ class Body extends Component {
                 <div className="Content">
                     <Routes>
                         <Route path='/' element={<Homepage/>}/>
+                        <Route path='/Login' element={<Login/>}/>
                     </Routes>
                 </div>
             </div>
